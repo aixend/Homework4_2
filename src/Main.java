@@ -32,6 +32,7 @@ public class Main {
         C.add(B.get(3));
         C.add(A.get(4));
         C.add(B.get(4));
+        System.out.println(C);
 
         Collections.sort(C, new Comp());
         System.out.println("Отсортированный  C список по длинне слова: " + C);
